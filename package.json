@@ -9,6 +9,19 @@
   "scripts": {
     "test": "(npmts)"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://gitlab.com/pushrocks/smartunique.git"
+  },
+  "keywords": [
+    "unique",
+    "key",
+    "uuid",
+    "shortid",
+    "lossless",
+    "pushrocks",
+    "TypeScript"
+  ],
   "devDependencies": {
     "tapbundle": "^1.0.13"
   },
