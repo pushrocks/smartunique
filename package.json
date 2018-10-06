@@ -1,6 +1,6 @@
 {
   "name": "@pushrocks/smartunique",
-  "version": "3.0.0",
+  "version": "3.0.1",
   "private": false,
   "description": "make things unique",
   "main": "dist/index.js",
