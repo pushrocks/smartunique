@@ -1,4 +1,4 @@
-# smartunique
+# @pushrocks/smartunique
 
 make things unique
 
@@ -25,9 +25,25 @@ make things unique
 
 Use TypeScript for best in class instellisense.
 
+```javascript
+// We are using TypeScript syntax here to have types in place
+import * as smartunique from 'smartunique';
+
+// creates a short mathematically highly unique short string
+let myShortid = smartunique.shortid();
+
+// creates a string that is possibly unique world wide
+let myUuid4 = smartunique.uuid4();
+
+// creates a oneway repeatable unique id within a certain namespace
+let myUuid5 = smartunique.uuid('myobscureduser@somedomain.com', smartunique.uuid4());
+```
+
+Learn more about UUIDs: knowledgebase.gitzone.com/uuid.html
+
 For further information read the linked docs at the top of this README.
 
 > MIT licensed | **&copy;** [Lossless GmbH](https://lossless.gmbh)
-> | By using this npm module you agree to our [privacy policy](https://lossless.gmbH/privacy.html)
+> | By using this npm module you agree to our [privacy policy](https://lossless.gmbh/privacy)
 
 [![repo-footer](https://pushrocks.gitlab.io/assets/repo-footer.svg)](https://push.rocks)
