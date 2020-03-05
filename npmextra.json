@@ -2,5 +2,16 @@
   "npmci": {
     "npmGlobalTools": [],
     "npmAccessLevel": "public"
+  },
+  "gitzone": {
+    "projectType": "npm",
+    "module": {
+      "githost": "gitlab.com",
+      "gitscope": "pushrocks",
+      "gitrepo": "smartunique",
+      "shortDescription": "make things unique",
+      "npmPackagename": "@pushrocks/smartunique",
+      "license": "MIT"
+    }
   }
 }

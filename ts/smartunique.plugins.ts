@@ -1,5 +1,4 @@
-import * as shortid from 'shortid';
-import * as uuidv4 from 'uuid/v4';
-import * as uuidv5 from 'uuid/v5';
+import shortid from 'shortid';
+import * as uuid from 'uuid';
 
-export { shortid, uuidv4, uuidv5 };
+export { shortid, uuid };

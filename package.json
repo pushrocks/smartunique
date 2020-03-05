@@ -25,16 +25,29 @@
     "TypeScript"
   ],
   "devDependencies": {
-    "@gitzone/tsbuild": "^2.0.22",
-    "@gitzone/tsrun": "^1.1.12",
-    "@gitzone/tstest": "^1.0.15",
-    "@pushrocks/tapbundle": "^3.0.7",
-    "@types/node": "^10.11.4"
+    "@gitzone/tsbuild": "^2.1.17",
+    "@gitzone/tsrun": "^1.2.8",
+    "@gitzone/tstest": "^1.0.28",
+    "@pushrocks/tapbundle": "^3.2.0",
+    "@types/node": "^13.7.7",
+    "tslint": "^6.0.0",
+    "tslint-config-prettier": "^1.18.0"
   },
   "dependencies": {
-    "@types/shortid": "^0.0.29",
-    "@types/uuid": "^3.0.0",
-    "shortid": "^2.2.8",
-    "uuid": "^3.1.0"
-  }
+    "@types/shortid": "0.0.29",
+    "@types/uuid": "^7.0.0",
+    "shortid": "^2.2.15",
+    "uuid": "^7.0.2"
+  },
+  "files": [
+    "ts/**/*",
+    "ts_web/**/*",
+    "dist/**/*",
+    "dist_web/**/*",
+    "dist_ts_web/**/*",
+    "assets/**/*",
+    "cli.js",
+    "npmextra.json",
+    "readme.md"
+  ]
 }
